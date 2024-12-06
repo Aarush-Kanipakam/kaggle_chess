@@ -3,7 +3,7 @@ CFLAGS=-Wall -std=c++17 -O3 -funroll-loops -DASIO_STANDALONE
 
 INCLUDES=-Iinclude
 
-SRC=server.cpp board.cpp butils.cpp bdata.cpp engine.cpp uciws.cpp rollerball.cpp
+SRC=board.cpp butils.cpp bdata.cpp engine.cpp uciws.cpp rollerball.cpp
 
 rollerball:
 	mkdir -p bin
